@@ -20,7 +20,7 @@ const About = () => {
           <div>
               <p className="text-[#222] text-3xl md:text-4xl font-bold my-6 text-center lg:text-start">Ugwu Leonard,Jr</p>
               <div className="flex flex-col lg:block justify-center items-center">
-                <img src={image1} loading="lazy" alt="" className="w-[30rem] h-[20rem] md:h-[30rem] lg:mr-6 mb-4 lg:mb-6 rounded-md lg:float-left"/>
+                <img src={image1} alt="" className="w-[30rem] h-[20rem] md:h-[30rem] lg:mr-6 mb-4 lg:mb-6 rounded-md lg:float-left"/>
                 <div className="text-justify font-light text-[#222] text-xl md:text-2xl">
                   <p className="mb-8">It all became a flickering light when Leonard Jr. won the best poet
                   of the year twice in 2012 and 2013 from the Caritas University
@@ -94,8 +94,8 @@ const About = () => {
                 </div>
               </div>
               <div className="flex md:flex-row flex-col justify-center items-center gap-4 md:gap-10">
-                  <img src={image2} alt="" className=" w-[20rem] md:w-[30rem] h-[20rem] md:h-[30rem] rounded-[50%]" loading="lazy" />
-                  <img src={image3} alt="" className=" w-[20rem] md:w-[30rem] h-[20rem] md:h-[30rem] rounded-[50%]" loading="lazy" />
+                  <img src={image2} alt="" className=" w-[20rem] md:w-[30rem] h-[20rem] md:h-[30rem] rounded-[50%]" />
+                  <img src={image3} alt="" className=" w-[20rem] md:w-[30rem] h-[20rem] md:h-[30rem] rounded-[50%]" />
               </div>
           </div>
         </section>

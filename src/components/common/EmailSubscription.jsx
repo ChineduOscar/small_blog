@@ -27,7 +27,7 @@ const EmailSubscription = () => {
     // Send the post request
     try {
       setIsLoading(true)
-      const response = await fetch(url, {
+      await fetch(url, {
         method: 'POST',
         mode: 'no-cors',
         headers: {
@@ -37,17 +37,12 @@ const EmailSubscription = () => {
           EMAIL: email,
         }).toString(),
       });
-
       // Handle the response
-      if (response.status === 200) {
         setSuccess('Successfully sent');
         setError('');
         setEmail('');
         setIsLoading(false)
-      } else {
-        setError('Something went wrong');
-        setIsLoading(false)
-      }
+
     } catch (error) {
       console.log(error)
       setError('Something went wrong');

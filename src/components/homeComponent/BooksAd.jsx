@@ -40,7 +40,7 @@ const BooksAd = () => {
         {booksData.map((book) => (
           <Link to={`/books/${book.id}`} key={book.id}>
             <div key={book.id} className="flex flex-col items-center shadow-lg p-4 gap-4 rounded-md cursor-pointer">
-              <img src={book.src} alt={book.title} className="h-[400px] w-[250px] md:w-[300px]" loading="lazy" />
+              <img src={book.src} alt={book.title} className="h-[400px] w-[250px] md:w-[300px]" />
               <div className="flex flex-col items-center w-[250px] md:w-[300px] gap-4">
                 <p className="text-xl md:text-2xl font-bold text-[#222]">{book.title}</p>
                 <p className="text-[16px] md:text-xl font-medium text-[#222] text-center">{truncate(book.overview)}</p>

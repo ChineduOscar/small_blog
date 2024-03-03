@@ -13,7 +13,7 @@ const NoPage = () => {
           />
       </Helmet>
         <div className="flex justify-center items-center">
-            <img src={noPageImage} alt="" className="h-[100vh] w-full md:w-[80%]" loading="lazy" />
+            <img src={noPageImage} alt="" className="h-[100vh] w-full md:w-[80%]" />
         </div>
     </Layout> 
   )

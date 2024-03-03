@@ -8,7 +8,7 @@ const AboutAuthor = () => {
         <div className="absolute top-2 left-0 right-0 uppercase text-center text-xl md:text-3xl bg-white text-[#4c9e9e] font-bold w-full p-2">About author</div>
         <p className="font-bold text-2xl md:text-3xl my-10 uppercase">Ugwu Leonard,Jr</p>
         <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-10 items-center">
-            <img src={author} alt="" className="w-[500px] h-[300px] md:h-[500px] rounded-xl" loading="lazy" />
+            <img src={author} alt="" className="w-[500px] h-[300px] md:h-[500px] rounded-xl" />
             <div className="flex flex-col gap-4 md:gap-6">
                 <p className="font-semibold text-[16px] md:text-xl leading-6 md:leading-8 text-justify">
                     It all became a flickering light when Leonard Jr. won the best poet

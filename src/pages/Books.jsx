@@ -40,7 +40,7 @@ const Books = () => {
           {booksData.map((book) => (
             <Link to={`/books/${book.id}`} key={book.id}>
                 <div className="flex flex-col items-center shadow-lg p-6 gap-4 rounded-md cursor-pointer">
-                    <img src={book.src} alt={book.title} className="h-[400px] w-[250px] md:w-[300px]" loading="lazy" />
+                    <img src={book.src} alt={book.title} className="h-[400px] w-[250px] md:w-[300px]" />
                     <div className="flex flex-col items-center w-[250px] md:w-[300px] gap-4">
                         <p className="text-xl md:text-2xl font-bold text-[#222]">{book.title}</p>
                         <button className="text-xl font-semibold w-[150px] py-2 bg-[#4c9e9e] text-white border-[#4c9e9e] rounded-md">Read More</button>

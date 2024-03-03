@@ -23,7 +23,7 @@ const Book = () => {
             <p className="text-center text-3xl text-[#222] font-bold uppercase my-4 md:my-10">...</p>
             <div className="absolute top-0 left-0 right-0 uppercase text-center text-xl md:text-3xl bg-[#4c9e9e] text-white font-bold w-full p-2">{title}</div>
             <div className="flex md:flex-row flex-col gap-6 md:gap-8 md:justify-between items-center">
-                <img src={image} alt={title} className="h-[450px] w-[300px] md:w-[350px]" loading="lazy" />
+                <img src={image} alt={title} className="h-[450px] w-[300px] md:w-[350px]" />
                 <p className="text-xl text-justify text-[#222]">
                    {overview}
                 </p>

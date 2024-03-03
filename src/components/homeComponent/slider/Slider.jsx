@@ -55,7 +55,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="relative w-full h-[100vh] bg-[#222]">
-          <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-40" loading="lazy" />
+          <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-40" />
           <div className="absolute top-0 left-0 bottom-0 right-0 flex flex-col md:flex-row justify-center gap-4 lg:justify-around items-center">
 
             <img src={bullet} alt="" className="w-[200px] md:w-[250px] h-[250px] md:h-[70vh] shadow-lg"/>
@@ -80,7 +80,7 @@ const Slider = () => {
       </SwiperSlide>
       <SwiperSlide>
         <div className="relative w-full h-[100vh] bg-[#222]">
-          <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-50" loading="lazy"/>
+          <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-50"/>
           <div className="absolute top-0 left-0 bottom-0 right-0 flex flex-col md:flex-row justify-center gap-4 lg:justify-around items-center">
 
             <img src={barbel} alt="" className="w-[220px] md:w-[250px] h-[250px] md:h-[70vh] shadow-lg"/>
