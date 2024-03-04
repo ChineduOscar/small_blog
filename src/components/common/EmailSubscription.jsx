@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 const EmailSubscription = () => {
@@ -26,7 +25,7 @@ const EmailSubscription = () => {
 
     // Send the post request
     try {
-      setIsLoading(true)
+      setIsLoading(true);
       await fetch(url, {
         method: 'POST',
         mode: 'no-cors',
@@ -38,15 +37,23 @@ const EmailSubscription = () => {
         }).toString(),
       });
       // Handle the response
-        setSuccess('Successfully sent');
-        setError('');
-        setEmail('');
-        setIsLoading(false)
+      setSuccess('Successfully sent');
+      setEmail('');
+      setIsLoading(false);
 
+      // Clear success message after 3 seconds
+      setTimeout(() => {
+        setSuccess('');
+      }, 3000);
     } catch (error) {
-      console.log(error)
+      console.log(error);
       setError('Something went wrong');
-      setIsLoading(false)
+      setIsLoading(false);
+
+      // Clear error message after 3 seconds
+      setTimeout(() => {
+        setError('');
+      }, 3000);
     }
   };
   return (

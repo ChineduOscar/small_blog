@@ -26,10 +26,10 @@ const Slider = () => {
       spaceBetween={50}
       slidesPerView={1}
       navigation
-      autoplay={{ delay: 9000 }} 
+      autoplay={{ delay: 10000 }} 
       >
       <SwiperSlide>
-        <div className="relative w-full h-[100vh] bg-[#222]">
+        <div className="relative w-full h-[80vh] lg:h-[100vh] bg-[#222]">
           <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-40"/>
           <div className="absolute top-0 left-0 bottom-0 right-0 flex flex-col md:flex-row justify-center gap-4 lg:justify-around items-center">
 
@@ -54,7 +54,7 @@ const Slider = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="relative w-full h-[100vh] bg-[#222]">
+        <div className="relative w-full h-[80vh] lg:h-[100vh] bg-[#222]">
           <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-40" />
           <div className="absolute top-0 left-0 bottom-0 right-0 flex flex-col md:flex-row justify-center gap-4 lg:justify-around items-center">
 
@@ -79,7 +79,7 @@ const Slider = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="relative w-full h-[100vh] bg-[#222]">
+        <div className="relative w-full h-[80vh] lg:h-[100vh] bg-[#222]">
           <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-50"/>
           <div className="absolute top-0 left-0 bottom-0 right-0 flex flex-col md:flex-row justify-center gap-4 lg:justify-around items-center">
 

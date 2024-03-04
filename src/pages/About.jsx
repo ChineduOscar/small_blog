@@ -18,7 +18,7 @@ const About = () => {
         <p className="text-center text-3xl text-[#222] font-bold uppercase my-4 md:my-10">...</p>
           <div className="absolute top-2 left-0 right-0 uppercase text-center text-xl md:text-3xl text-white bg-[#4c9e9e] font-bold w-full p-2">About author</div>
           <div>
-              <p className="text-[#222] text-3xl md:text-4xl font-bold my-6 text-center lg:text-start">Ugwu Leonard,Jr</p>
+              <p className="text-[#222] text-3xl md:text-4xl font-bold my-6 text-center lg:text-start font-[doris]">Ugwu Leonard,Jr</p>
               <div className="flex flex-col lg:block justify-center items-center">
                 <img src={image1} alt="" className="w-[30rem] h-[20rem] md:h-[30rem] lg:mr-6 mb-4 lg:mb-6 rounded-md lg:float-left"/>
                 <div className="text-justify font-light text-[#222] text-xl md:text-2xl">
@@ -97,6 +97,7 @@ const About = () => {
                   <img src={image2} alt="" className=" w-[20rem] md:w-[30rem] h-[20rem] md:h-[30rem] rounded-[50%]" />
                   <img src={image3} alt="" className=" w-[20rem] md:w-[30rem] h-[20rem] md:h-[30rem] rounded-[50%]" />
               </div>
+              <p className="text-center font-light text-[#222] text-xl md:text-2xl mt-2">He is a writer, poet, lecturer, a publisher.</p>
           </div>
         </section>
     </Layout>

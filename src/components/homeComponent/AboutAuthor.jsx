@@ -6,7 +6,7 @@ const AboutAuthor = () => {
     <div className="relative mt-12 bg-[#525151] text-white px-6 md:px-12 pb-6">
         <p className="text-center text-3xl text-[#222] font-bold uppercase my-12">...</p>
         <div className="absolute top-2 left-0 right-0 uppercase text-center text-xl md:text-3xl bg-white text-[#4c9e9e] font-bold w-full p-2">About author</div>
-        <p className="font-bold text-2xl md:text-3xl my-10 uppercase">Ugwu Leonard,Jr</p>
+        <p className="font-bold text-2xl md:text-3xl my-10 uppercase font-[doris]">Ugwu Leonard,Jr</p>
         <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-10 items-center">
             <img src={author} alt="" className="w-[500px] h-[300px] md:h-[500px] rounded-xl" />
             <div className="flex flex-col gap-4 md:gap-6">
