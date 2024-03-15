@@ -33,7 +33,7 @@ const Slider = () => {
           <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-40"/>
           <div className="absolute top-0 left-0 bottom-0 right-0 flex flex-col md:flex-row justify-center gap-4 lg:justify-around items-center">
 
-            <img src={invisible} alt="" className="w-[200px] md:w-[250px] h-[250px] md:h-[70vh] shadow-lg"/>
+            <img src={invisible} alt="" className="w-[200px] md:w-[250px] h-[270px] md:h-[70vh] shadow-lg"/>
             <div>
               <div className="mx-4 md:mx-0 md:w-[300px] lg:w-[500px] grid items-center gap-4 md:gap-10 lg:gap-24">
                 <div className="px-4 py-6 bg-gray-500 bg-opacity-50 shadow-md rounded-md">
@@ -58,7 +58,7 @@ const Slider = () => {
           <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-40" />
           <div className="absolute top-0 left-0 bottom-0 right-0 flex flex-col md:flex-row justify-center gap-4 lg:justify-around items-center">
 
-            <img src={bullet} alt="" className="w-[200px] md:w-[250px] h-[250px] md:h-[70vh] shadow-lg"/>
+            <img src={bullet} alt="" className="w-[200px] md:w-[250px] h-[270px] md:h-[70vh] shadow-lg"/>
             <div>
               <div className="mx-4 md:mx-0 md:w-[300px] lg:w-[500px] grid items-center gap-4 md:gap-10 lg:gap-24">
                 <div className="px-4 py-6 bg-gray-500 bg-opacity-50 shadow-md rounded-md">
@@ -83,7 +83,7 @@ const Slider = () => {
           <img src={bg} alt="" className="w-full h-full object-cover opacity-10 md:opacity-50"/>
           <div className="absolute top-0 left-0 bottom-0 right-0 flex flex-col md:flex-row justify-center gap-4 lg:justify-around items-center">
 
-            <img src={barbel} alt="" className="w-[220px] md:w-[250px] h-[250px] md:h-[70vh] shadow-lg"/>
+            <img src={barbel} alt="" className="w-[220px] md:w-[250px] h-[270px] md:h-[70vh] shadow-lg"/>
             <div>
               <div className="mx-4 md:mx-0 md:w-[300px] lg:w-[500px] grid items-center gap-4 md:gap-10 lg:gap-24">
                 <div className="px-4 py-6 bg-gray-500 bg-opacity-50 shadow-md rounded-md">

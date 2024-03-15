@@ -21,7 +21,7 @@ const Footer = () => {
             <img src={medium} alt="" className="w-12 h-12" />
           </a>
         </div>
-        <h4 className="text-xl font-medium">© 2023 Ugwu Leonard.Jr</h4>
+        <h4 className="text-xl font-medium">© 2024 Ugwu Leonard.Jr</h4>
     </footer>
   )
 }

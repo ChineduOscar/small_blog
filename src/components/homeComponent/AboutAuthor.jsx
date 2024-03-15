@@ -10,7 +10,7 @@ const AboutAuthor = () => {
         <div className="flex flex-col md:flex-row justify-between gap-4 md:gap-10 items-center">
             <img src={author} alt="" className="w-[500px] h-[300px] md:h-[500px] rounded-xl" />
             <div className="flex flex-col gap-4 md:gap-6">
-                <p className="font-semibold text-[16px] md:text-xl leading-6 md:leading-8 text-justify">
+                <p className="font-semibold text-[16px] md:text-xl leading-5 md:leading-8 text-justify">
                     It all became a flickering light when Leonard Jr. won the best poet
                     of the year twice in 2012 and 2013 from the Caritas University
                     Literary and Arts Association (CAULAA). During his first Degree in
